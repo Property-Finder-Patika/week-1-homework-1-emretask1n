@@ -1,4 +1,4 @@
-# Variables
+# 2.3 Variables
 A var declaration creates a variable of a particular type, attaches a name to it, and sets its initial value. Each declaration has the general form
 
 ``` go
@@ -25,7 +25,7 @@ var i, j, k int // int, int, int
 var b, f, s = true, 2.3, "four" // bool, float64, string
 ```
 
-### Short Variable Declarations
+### 2.3.1 Short Variable Declarations
 
 It takes the form **name := expression**, and the **type of name** is
 determined by the **type of expression**. Here are three of the many short variable declarations
@@ -83,7 +83,7 @@ f, err := os.Create(outfile) // compile error: no new variables
 The fix is to use an ordinary assignment for the second statement.
 
 
-### Pointers
+### 2.3.2 Pointers
 
 A variable is a **piece of storage** containing a value.
 
@@ -116,7 +116,7 @@ fmt.Println(&x == &x, &x == &y, &x == nil) // "true false false"
 ```
 
 
-### The new function
+### 2.3.3 The new function
 
 Another way to create a variable is to use the built-in function new. The expression new(T)
 creates an unnamed variable of type T, initializes it to the zero value of T, and returns its
@@ -130,7 +130,7 @@ fmt.Println(*p) // "2"
 ```
 
 
-### Lifetime Of Variables
+### 2.3.4 Lifetime Of Variables
 
 The lifetime of a variable is the interval of time during which it exists as the program executes.
 The lifetime of a package-level variable is the entire execution of the program.
