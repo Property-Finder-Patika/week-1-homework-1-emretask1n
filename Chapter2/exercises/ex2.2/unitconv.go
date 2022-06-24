@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	tempconv "github.com/ray-g/gopl/ch02/ex2.01"
+	tempconv "gopl.io/Chapter2/exercises/ex2.1"
 )
 
 var stdout io.Writer = os.Stdout
