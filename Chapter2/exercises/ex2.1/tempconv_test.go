@@ -5,6 +5,7 @@ import "testing"
 // Unit - testing for tempconv
 // tcs -- stands for Test Case Struct
 // tc  -- stands for Test Case
+// ret -- stands for return
 
 // _ = Blank Identifier
 
