@@ -1,4 +1,4 @@
-package unitdef
+package main
 
 const (
 	Kilo = 1000
